@@ -122,5 +122,15 @@
   <build>
     <finalName>EcommerceApp</finalName>
   </build>
+<distributionManagement>
+  <repository>
+    <id>ecommerce-release</id>  <!-- must match -->
+    <url>http://52.90.2.74:8081/repository/E-commerce-Release/</url>
+  </repository>
+  <snapshotRepository>
+    <id>ecommerce-snapshot</id>  <!-- must match -->
+    <url>http://52.90.2.74:8081/repository/E-commerce-snapshot/</url>
+  </snapshotRepository>
+</distributionManagement>
 
 </project>
