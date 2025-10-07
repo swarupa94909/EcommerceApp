@@ -37,20 +37,6 @@
     </repository>
   </repositories>
 
-  <distributionManagement>
-    <repository>
-      <id>ecommerce-release</id>
-      <name>E-commerce Release Repository</name>
-      <url>http://52.90.2.74:8081/repository/E-commerce-Release/</url>
-    </repository>
-
-    <snapshotRepository>
-      <id>ecommerce-snapshot</id>
-      <name>E-commerce Snapshot Repository</name>
-      <url>http://52.90.2.74:8081/repository/E-commerce-snapshot/</url>
-    </snapshotRepository>
-  </distributionManagement>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -126,11 +112,11 @@
 <distributionManagement>
   <repository>
     <id>releases</id>
-    <url>http://nexus-url/repository/releases/</url>
+    <url>http://52.90.2.74:8081/repository/E-commerce-Release/</url>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
-    <url>http://nexus-url/repository/snapshots/</url>
+    <url>http://52.90.2.74:8081/repository/E-commerce-snapshot/</url>
   </snapshotRepository>
 </distributionManagement>
 
